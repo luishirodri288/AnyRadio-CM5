@@ -1,0 +1,96 @@
+(footprint "9774015151R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c0472ead-c069-41f9-ae05-65b05a61ba28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "9774015151R"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc22fb5f-31c1-4b77-b0fe-516cbf5b3593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0237d261-06b5-407d-a26a-fcc3970a04b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54ae9853-19d3-4e5b-b9a7-c9a74cf3c280")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f780ca2-4e56-4baa-8144-f749b5ad4e69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "MP" thru_hole circle
+		(at 0 0)
+		(size 3.6 3.6)
+		(drill 3.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "9a59140f-7dc6-4214-b69c-1785c1ab012f")
+	)
+	(pad "MP" smd circle
+		(at 0 0)
+		(size 5.2 5.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e551cdc7-a5b5-48e8-92d3-8812d3f21a40")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/_Library.pretty/step/9774015151R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

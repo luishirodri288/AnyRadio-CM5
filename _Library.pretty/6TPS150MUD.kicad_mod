@@ -1,0 +1,121 @@
+(footprint "6TPS150MUD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(uuid "dcb58fdf-7773-4557-83e1-f7e0c217d823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "6TPS150MUD"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "ea4d56a6-55ce-440c-a24c-db4a51c48773")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff44ae1e-a1e7-41e1-ab11-341c11aea297")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69c9bf29-1a6b-47fb-82fc-f9fde1e97479")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -1)
+		(end -0.5 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9a25865-9c1f-441e-b09f-53647baa90e7")
+	)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7158d90-7b57-485a-97fc-5ead0d30f8ef")
+	)
+	(fp_rect
+		(start -1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f871aff4-2e45-4369-b475-5102f341e741")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "14f69480-541e-4f9e-b0bd-3f9a4010a958")
+		(effects
+			(font
+				(size 0.88 0.88)
+				(thickness 0.13)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.4 0)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83d25c33-2f42-48a7-b65c-7ecbb4d3979a")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "653d84da-df3b-4969-a874-98183920daae")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/_Library.pretty/step/6TPS150MUD.stp"
+		(offset
+			(xyz 0.37 0 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
+)
