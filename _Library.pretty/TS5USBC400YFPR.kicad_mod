@@ -1,0 +1,215 @@
+(footprint "TS5USBC400YFPR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3d518491-920f-4930-aa7b-569840c880bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TS5USBC400YFPR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f7bdf13-3ec2-4da6-92d4-380d03e0702f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d4cd11e-b106-425a-808f-7e985d953424")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f35ee1-31f2-49c9-a719-75b3a4d8a79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 0.7)
+		(end -0.9 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be870787-04dc-431f-936b-ccbfbacca54f")
+	)
+	(fp_line
+		(start -0.6 -0.7)
+		(end 0.9 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7053964-5656-4198-8f9b-5074236ca5d0")
+	)
+	(fp_line
+		(start 0.9 -0.7)
+		(end 0.9 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29dd7998-75d5-4877-8978-0093f15de11e")
+	)
+	(fp_line
+		(start 0.9 0.7)
+		(end -0.9 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8956b3e0-2a6e-4136-90d7-7d8fc1adef13")
+	)
+	(fp_rect
+		(start -1 -0.75)
+		(end 1 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "29e3f7b5-ffa7-42d4-b9d5-ff0174d8ec32")
+	)
+	(fp_rect
+		(start -0.8 -0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "57b4786a-c1ba-44c7-a6ec-21cccc5b1a7a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50343a05-9f55-4899-83ec-71609684f1b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.6 -0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "075fca97-f5df-44cb-814e-f90c3c93dab3")
+	)
+	(pad "A2" smd circle
+		(at -0.2 -0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0dade8c4-eec3-42bb-b1c7-700432cc057c")
+	)
+	(pad "A3" smd circle
+		(at 0.2 -0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "578e6f03-5f85-49c4-a1a8-46805119ee90")
+	)
+	(pad "A4" smd circle
+		(at 0.6 -0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "234788a9-2497-4d1e-a787-d7d5e3ea2c84")
+	)
+	(pad "B1" smd circle
+		(at -0.6 0 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de08e344-42c6-40c5-a9b0-fac40c386bc7")
+	)
+	(pad "B2" smd circle
+		(at -0.2 0 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5241e262-3854-4a75-a571-7319defb698f")
+	)
+	(pad "B3" smd circle
+		(at 0.2 0 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab6a9718-122f-4f5e-b94f-d4501ac43804")
+	)
+	(pad "B4" smd circle
+		(at 0.6 0 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ae01be4-a45a-4ae4-a22c-52b92986f7f5")
+	)
+	(pad "C1" smd circle
+		(at -0.6 0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4705ba86-f571-4998-84d1-a8bfd0c6897e")
+	)
+	(pad "C2" smd circle
+		(at -0.2 0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b40a8bc-fe4c-40b6-8209-5c53efbbf7fc")
+	)
+	(pad "C3" smd circle
+		(at 0.2 0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77791932-c99d-4840-bb07-2bc39c7c31fe")
+	)
+	(pad "C4" smd circle
+		(at 0.6 0.4 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07437e9b-5d3a-4862-bf1a-dad8e28c544e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/_Library.pretty/step/TS5USBC400YFPR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)
